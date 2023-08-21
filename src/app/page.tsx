@@ -1,9 +1,9 @@
 'use client';
 
 import { Form } from '@/components/form/form';
+import { client } from '@/graphql/server';
 import { ApolloProvider } from '@apollo/client';
 import { Container } from '@mantine/core';
-import { client } from './server/server';
 
 
 function Home() {
